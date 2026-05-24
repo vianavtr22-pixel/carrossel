@@ -7,7 +7,7 @@ body {
 }
  
 .content {
-    height: 490px;
+    height: min(490px, 60vw);
     width: min(1000px, 95vw);
     border-radius: 20px;
     overflow: hidden;
